@@ -17,7 +17,7 @@ A beginner-friendly Flask project where I integrate my old static banking websit
 
 ## Project Structure
 
-'''
+```
 Flask Banking Website
 ├── README.md
 ├── app.py
@@ -38,7 +38,7 @@ Flask Banking Website
     ├── faq.css
     ├── mortgage.css
     └── mortcalc.js
-'''
+```
 
 ---
 
