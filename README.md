@@ -17,6 +17,7 @@ A beginner-friendly Flask project where I integrate my old static banking websit
 
 ## Project Structure
 
+'''
 Flask Banking Website
 ├── README.md
 ├── app.py
@@ -37,10 +38,11 @@ Flask Banking Website
     ├── faq.css
     ├── mortgage.css
     └── mortcalc.js
+'''
 
 ---
 
-## 📖 Day-by-Day Progress
+## Day-by-Day Progress
 
 - **Day 1**: Installed Python & Flask, created virtual environment, “Hello World” app  
 - **Day 2**: Added static routes, dynamic routes, JSON endpoint, and form handling  
@@ -50,7 +52,7 @@ Flask Banking Website
 
 ---
 
-## ⚡ How to Run
+## How to Run
 
 1. Clone the repository:  
 ```bash
