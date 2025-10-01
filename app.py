@@ -5,32 +5,32 @@ app = Flask(__name__)
 # Static Route
 @app.route("/")
 def home():
-    return render_template("Home.html")
+    return render_template("home.html")
 
 # Another static route
 @app.route("/about")
 def about():
-    return render_template("About.html")
+    return render_template("about.html")
 
 # Show Contact Form
 @app.route("/contact")
 def contact():
-    return render_template("Contact.html")
+    return render_template("contact.html")
 
 # Show Services Page
 @app.route("/services")
 def services():
-    return render_template("Services.html")
+    return render_template("services.html")
 
 # Show FAQ Page
 @app.route("/faq")
 def faq():
-    return render_template("FAQ.html")
+    return render_template("faq.html")
 
 # Show Mortgage Calculator
 @app.route("/mortgage")
 def mortgage():
-    return render_template("Mortgage.html")
+    return render_template("mortgage.html")
 
 # Handle Form Submission
 @app.route("/submit", methods=["POST"])
