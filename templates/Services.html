@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Services - EvoVault</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='Services.css') }}" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="Navigation">
+
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+
+                <li><a href="{{ url_for('mortgage') }}">Mortgage Calculator</a></li>
+
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+
+                <li><a href="{{ url_for('services') }}">Services</a></li>
+
+                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="Content">
+
+            <h1 class="Heading">
+                Additional Services
+            </h1>
+
+            <div class="additionalService">
+                <h2>Savings Accounts</h2>
+                <div class="description">
+                    <p>High-Interest Savings, Automated Savings Plans, and Instant Transfers.</p>
+                </div>
+            </div>
+
+            <div class="additionalService">
+                <h2>Personal Loans</h2>
+                <div class="description">
+                    <p>Low-Interest Loans, Quick Approval, and Customizable Loan Amounts.</p>
+                </div>
+            </div>
+
+            <div class="additionalService">
+                <h2>Investments</h2>
+                <div class="description">
+                    <p>Diverse Investment Options, Real-Time Insights, and Personalized Advice.</p>
+                </div>
+            </div>
+
+            <div class="additionalService">
+                <h2>Credit Cards</h2>
+                <div class="description">
+                    <p>Rewards Program, Cashback Offers, and Exclusive Benefits.</p>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            $(document).ready(function(){
+            $(".additionalService").click(function(){
+                $(this).children(".description").slideToggle();  
+                $(this).siblings().children(".description").slideUp();  
+                });
+            });
+        </script>
+    </body>
+</head>

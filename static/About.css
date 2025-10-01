@@ -1,0 +1,147 @@
+/* Navigation Menu Styling */
+
+.Navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Navigation li {
+    margin: 30px 50px; 
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: white; 
+    font-size: 19.5px;
+    padding: 5px 10px;
+}
+
+.Navigation a:hover {
+    color: #162336; 
+    background-color: white; 
+    border-radius: 5px; 
+}
+
+
+
+
+
+/* Body styling */
+
+body {
+    background-color: #162336;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content {
+    width: 90%; 
+    padding: 20px; 
+    min-height: 80vh;
+    background: #325765; 
+    border-radius: 19px;
+    box-sizing: border-box; 
+    margin-top: 19.8px; 
+}
+
+
+
+
+
+/* Seperating Content into 2 halves */
+
+.leftSide {
+    width: 45%;
+    margin-left: 21px;
+    float: left; 
+}
+
+.rightSide {
+    width: 45%; 
+    margin-right: 100px;
+    float: right; 
+}
+
+
+
+
+
+/* Styling the heading */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@500&display=swap');
+
+.Heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 698;
+    font-size: 2.45em; 
+    text-align: left; 
+    color: #f4f4f4; 
+    margin-top: 19.8px;
+    margin-left: 19.8px;
+    border-bottom: 1px solid #f4f4f4; 
+    padding-bottom: 7.8px;
+}
+
+
+
+
+
+/* Styling the text */
+
+.Content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 398; 
+    font-size: 17px; 
+    color: #f4f4f4; 
+    text-align: left; 
+    line-height: 1.5; 
+    margin-top: 14px; 
+    margin-left: 19px; 
+    margin-right: 19px; 
+    max-width: 90%; 
+    margin-bottom: 29px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    font-size: 2em; 
+    color: #fbb03b; 
+    margin-top: 19.8px;
+    margin-left: 19.8px;
+    line-height: 1.22;
+}
+
+ol {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bolder; 
+    font-size: 17.4px; 
+    color: #f4f4f4;
+    line-height: 1.55; 
+    text-align: left;
+    margin-top: 14.6px; 
+    margin-right: 19px; 
+    max-width: 90%; 
+    margin-bottom: 29px; 
+    font-style: none;
+}
+
+
+
+
+
+/* Classes to style elements more efficiently */
+
+.italics {
+    font-style: italic; 
+}
+
+
+

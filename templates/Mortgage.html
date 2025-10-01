@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Mortgage Calculator - EvoVault</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='Mortgage.css') }}" />
+        <script src="{{ url_for('static', filename='MortCalc.js') }}"></script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="Navigation">
+
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+
+                <li><a href="{{ url_for('mortgage') }}">Mortgage Calculator</a></li>
+
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+
+                <li><a href="{{ url_for('services') }}">Services</a></li>
+
+                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="Content">
+
+            <h1 class="Heading">
+                Mortgage Calculator 
+            </h1>
+
+            <form id="mortgage-form">
+                <label for="LoanAmount">Loan Amount (£):</label>
+                <input type="number" id="LoanAmount" placeholder="Enter Loan Amount" required>
+    
+                <label for="LoanTerm">Loan Term (in years):</label>
+                <input type="number" id="LoanTerm" placeholder="Enter Loan Term" required>
+    
+                <label for="MonthlyIncome">Monthly Income (£):</label>
+                <input type="number" id="MonthlyIncome" placeholder="Enter Monthly Income" required>
+    
+                <button type="button" onclick="MortCalc()">Calculate</button>
+            </form>
+            
+            <div id="result" class="result"></div>
+        </div>
+    </body>
+</html>

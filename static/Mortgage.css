@@ -1,0 +1,130 @@
+/* Navigation Menu Styling */
+
+.Navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Navigation li {
+    margin: 30px 50px; 
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: white; 
+    font-size: 19.5px;
+    padding: 5px 10px;
+}
+
+.Navigation a:hover {
+    color: #162336;
+    background-color: white;
+    border-radius: 5px; 
+}
+
+
+
+
+
+
+/* Styling Form */
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.7px;
+    font-weight: bold;
+    margin-bottom: 9.8px;
+    display: block;
+    color: #f4f4f4;
+}
+
+input, button {
+    width: 100%;
+    padding: 19.8px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #325765;
+    color: #ffffff;
+    border: none; 
+    padding: 19.8px 14.8px;
+    font-size: 15.7px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1f3e4a;
+}
+
+.result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #162336;
+    text-align: center;
+}
+
+.denied {
+    color: red;
+}
+
+.approved {
+    color: green;
+}
+
+
+
+
+
+
+
+
+/* Body styling */
+
+body {
+    background-color: #162336;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content {
+    width: 90%; 
+    padding: 20px; 
+    min-height: 80vh;
+    background: #325765; 
+    border-radius: 19px;
+    box-sizing: border-box; 
+    margin-top: 19.8px; 
+}
+
+
+
+
+/* Styling the heading */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@500&display=swap');
+
+.Heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 698;
+    font-size: 2.45em; 
+    text-align: left; 
+    color: #f4f4f4; 
+    margin-top: 19.8px;
+    margin-left: 19.8px;
+    border-bottom: 1px solid #f4f4f4; 
+    padding-bottom: 7.8px;
+}

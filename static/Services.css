@@ -1,0 +1,99 @@
+/* Navigation Menu Styling */
+
+.Navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.Navigation li {
+    margin: 30px 50px; 
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: white; 
+    font-size: 19.5px;
+    padding: 5px 10px;
+}
+
+.Navigation a:hover {
+    color: #162336;
+    background-color: white;
+    border-radius: 5px; 
+}
+
+
+
+
+
+/* Styling Toggle Slide */
+
+.additionalService {
+    color: #f4f4f4;
+    margin: 18.9px;
+    padding: 15px 19.8px;
+    background-color: #1f3e4a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.description {
+    color: #1f3e4a;
+    font-weight: bold;
+    display: none;
+    margin-top: 9.8px;
+    padding: 9.8px;
+    background-color: #e8f1f8;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* Body styling */
+
+body {
+    background-color: #162336;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content {
+    width: 90%; 
+    padding: 20px; 
+    min-height: 80vh;
+    background: #325765; 
+    border-radius: 19px;
+    box-sizing: border-box; 
+    margin-top: 19.8px; 
+}
+
+
+
+
+
+/* Styling the heading */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@500&display=swap');
+
+.Heading {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 698;
+    font-size: 2.45em; 
+    text-align: left; 
+    color: #f4f4f4; 
+    margin-top: 19.8px;
+    margin-left: 19.8px;
+    border-bottom: 1px solid #f4f4f4; 
+    padding-bottom: 7.8px;
+}
+
+

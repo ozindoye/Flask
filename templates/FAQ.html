@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>FAQ - EvoVault</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='FAQ.css') }}" />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+
+        <nav>
+            <ul class="Navigation">
+
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+
+                <li><a href="{{ url_for('mortgage') }}">Mortgage Calculator</a></li>
+
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+
+                <li><a href="{{ url_for('services') }}">Services</a></li>
+
+                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="Content">
+            
+            <h1 class="Heading">
+                Frequently Asked Questions (FAQ)
+            </h1>
+
+            <div class="Questions">
+                <h3 class="italics">What is EvoVault?</h3>
+                <div class="Answers">
+                    <p>
+                        EvoVault is a next-generation digital banking platform that combines cutting-edge 
+                        technology with a customer-first approach. We offer a range of services including 
+                        savings accounts, loans, budgeting tools, and support for digital currencies.
+                    </p>
+                </div>
+            </div>
+
+            <div class="Questions">
+                <h3 class="italics">How do I close my EvoVault account?</h3>
+                <div class="Answers">
+                    <p>
+                        To close your account, contact our support team. They will guide you through
+                        the process while ensuring all pending transactions are resolved.
+                    </p>
+                </div>
+            </div>
+
+            <div class="Questions">
+                <h3 class="italics">What types of loans does EvoVault offer?</h3>
+                <div class="Answers">
+                    <p>
+                        EvoVault provides personal loans, home loans, and business 
+                        loans with competitive interest rates and flexible repayment plans.
+                    </p>
+                </div>
+            </div>
+
+            <div class="Questions">
+                <h3 class="italics">Are there fees for maintaining an EvoVault account?</h3>
+                <div class="Answers">
+                    <p>
+                        We pride ourselves on transparency. While most accounts have no 
+                        maintenance fees, specific services may carry nominal charges.
+                    </p>
+                </div>
+            </div>
+
+            <div class="Questions">
+                <h3 class="italics">How secure is my money with EvoVault?</h3>
+                <div class="Answers">
+                    <p>
+                        Your security is our top priority. EvoVault uses advanced encryption, 
+                        multi-factor authentication, and fraud monitoring to keep your funds 
+                        and information safe. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="Questions">
+                <h3 class="italics">Is EvoVault available in my country?</h3>
+                <div class="Answers">
+                    <p>
+                        Currently, EvoVault is available in select countries. 
+                        Contact customer support to check availability in your region.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="Questions">
+                <h3 class="italics">Does EvoVault offer physical branches?</h3>
+                <div class="Answers">
+                    <p>
+                        EvoVault operates primarily as a digital bank, but we ensure 
+                        comprehensive customer support through chat, email, and phone services.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+            $(".Questions").click(function(){
+                $(this).children(".Answers").slideToggle();  
+                $(this).siblings().children(".Answers").slideUp();  
+                });
+            });
+        </script>
+    </body>
+</head>
